@@ -1,0 +1,106 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+}
+
+.firstTitle {
+    font-family: monospace;
+}
+
+#logo1,
+#logo2,
+#logo3,
+#logo4,
+#logo5,
+#logo6 {
+    height: 100px;
+    width: 120px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.links {
+    justify-content: flex-end;
+    
+}
+
+.links a {
+    padding: 30px;
+}
+
+.header,
+.welcome,
+.projects,
+.games,
+.grid {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    border: 10 solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #34414e60;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+section .future{
+    grid-column: 2 /span 8;
+}
+
+section .woman{
+    width: 210px;
+    height: 270px;
+    grid-column: 10;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+div a {
+    text-decoration: none;
+    color: #333;
+}
+
+.projectLinks {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
