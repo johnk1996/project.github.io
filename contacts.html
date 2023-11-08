@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contact Form Submission</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header class="grid">
+    <h1>Contact Me</h1>
+    <nav>
+
+        <a href="project.html">Home</a>
+        <a href="games.html">Projects</a>
+        <a href="contacts.html">Contact Me</a>
+
+    </nav>
+</header>
+
+<body>
+
+    <div class="container">
+        <h1>Contact Form</h1>
+        <form action="https://formsubmit.co/kyle_t_john@outlook.com" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="hidden" name="_next" value="https://kylejohnproject.co.uk/thankyou.html">
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
