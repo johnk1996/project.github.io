@@ -36,7 +36,7 @@ header {
 
 header h1 {
 
-    grid-column: span 6;
+    grid-column: span 3;
     color: #fff;
     font-family: "Raleway", sans-serif;
 }
