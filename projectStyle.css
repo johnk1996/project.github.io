@@ -68,8 +68,7 @@ header nav a {
 .header,
 .welcome,
 .projects,
-.games,
-.grid {
+.games {
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
@@ -79,12 +78,13 @@ header nav a {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 1.8;
     text-align: center;
     margin: 0;
     padding: 0;
     background-color: #34414e60;
+    color: #fff;
 }
 
 main {
