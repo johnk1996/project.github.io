@@ -13,7 +13,9 @@
 #logo3,
 #logo4,
 #logo5,
-#logo6 {
+#logo6,
+#logo7,
+#logo8 {
     height: 100px;
     width: 120px;
     margin: 0px;
@@ -117,6 +119,12 @@ div a {
 }
 
 .projectLinks {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.projectLinkz {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
